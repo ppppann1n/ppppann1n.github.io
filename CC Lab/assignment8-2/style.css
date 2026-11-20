@@ -1,0 +1,60 @@
+/*
+this is a commment
+rule syntax
+selector {
+	property: value;
+}
+*/
+
+/*wildcard selector will apply*/
+*{
+
+box-sizing: border-box;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	overflow-x: clip;
+}
+body > *{
+	width:100%;
+}
+/*selector=p */
+p{
+font-size: 72px;
+
+}
+/*
+selector= .blue
+*/
+.blue{
+	color: white;
+	background-color: navy;
+
+	width: 50%;
+}
+
+
+/* targets a specific element+classname */
+
+h1.blue{
+	background-color: cyan;
+}
+.purple{
+	background-color: rebeccapurple;
+}
+.big{
+	font-size:24px;
+}
+.big.purple{
+	font-size: 48px;
+	background-color: plum;
+}
+
+
+#important{
+
+font-family: monospace;
+font-size: small;
+}
